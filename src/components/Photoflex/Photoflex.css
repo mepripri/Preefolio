@@ -1,0 +1,36 @@
+.photoflex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 80%;
+  margin: auto;
+}
+
+.photoflex-item,
+.projects {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 2px solid black;
+  height: max(15vw, 150px);
+}
+
+.photoflex-item img {
+  padding: 10% 5%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.projects img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .photoflex {
+    width: 100%;
+  }
+}

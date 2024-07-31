@@ -1,0 +1,97 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.overlay-content {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.overlay-content .overlay-img {
+  height: 500px;
+  padding: 5%;
+}
+
+.close-div {
+  position: absolute;
+  top: 10px;
+  right: -40px;
+}
+
+.cross-icon {
+  width: 40%;
+}
+
+.star-img {
+  width: 25px;
+  margin: 0 4px;
+}
+
+.text-div {
+  background-color: black;
+  padding: 2% 5% 3%;
+  width: 100%;
+}
+
+.text-date-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-div p {
+  color: white;
+  font-size: 16px;
+}
+
+.text-div h1 {
+  color: white;
+  font-size: 28px;
+  padding: 10px 0;
+}
+
+.text-div ul {
+  padding: 10px 15px 15px;
+}
+
+.text-div ul li {
+  color: white;
+  font-size: 16px;
+  padding: 8px 0;
+}
+
+.text-div a {
+  color: rgb(230, 86, 115);
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .overlay {
+    width: 100%;
+    height: 100%;
+  }
+  .overlay-content {
+    width: 80%;
+  }
+  .overlay-content .overlay-img {
+    height: 200px;
+  }
+}

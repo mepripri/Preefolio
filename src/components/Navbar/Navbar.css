@@ -1,0 +1,50 @@
+.navbar {
+  width: 100vw;
+  min-height: 40px;
+  height: 3vw;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-navbar {
+  display: flex;
+}
+
+.navbar p {
+  font-size: max(1vw, 20px);
+  color: white;
+}
+
+.navbar-img {
+  width: 1.5vw;
+  min-width: 20px;
+  margin: 1.5vw;
+}
+
+.inner-navbar img {
+  width: 1.5vw;
+  min-width: 20px;
+}
+
+.navbar-dot {
+  position: relative;
+}
+
+.navbar-dot .dot {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: rgb(234, 56, 24);
+  top: 0px;
+  right: -4px;
+  padding: 1px 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.navbar-dot .dot p {
+  color: white;
+  font-size: 12px;
+}

@@ -1,0 +1,32 @@
+.insta-bar {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 2vw;
+}
+
+.insta-bar-item {
+  width: 33.33%;
+  padding: 1vw;
+  color: white;
+  border: 2px solid rgba(116, 116, 116, 0.5);
+  border-left: none;
+  border-right: none;
+  text-align: center;
+}
+
+.insta-bar .active {
+  border-top-width: 2px;
+  border-top-color: white;
+}
+
+@media (max-width: 900px) {
+  .insta-bar {
+    width: 100%;
+  }
+  .insta-bar-item {
+    padding: 1.5vw;
+  }
+}

@@ -1,0 +1,46 @@
+.footer {
+  position: sticky;
+  width: 100vw;
+  min-height: 40px;
+  height: 3vw;
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 0;
+  background-color: black;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-img {
+  width: 10%;
+  object-fit: contain;
+}
+
+.footer-menu {
+  width: 8%;
+}
+
+.footer-profile {
+  border-radius: 50%;
+  width: 12%;
+  margin: 5px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+@media (max-width: 900px) {
+  .footer-img {
+    width: 25%;
+  }
+  .footer-menu {
+    width: 20%;
+  }
+  .footer-profile {
+    width: 30%;
+  }
+}
