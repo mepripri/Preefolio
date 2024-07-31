@@ -8,21 +8,25 @@ function Header() {
   const navigate = useNavigate();
   return (
     <div className="header">
-      <div className="header_img">
-        <img className="active" src={assets.profile_image} alt="" />
-      </div>
-      <div className="header-contents">
-        <h2>PRIYAL PATEL</h2>
-        <div className="header-btn-span">
-          <span className="header-id" onClick={() => navigate("/feed")}>
-            @mepripri
-          </span>
-          <button>
-            <a href={resume} target="_blank" rel="noreferrer">
-              Download Resume
-            </a>
-          </button>
+      <div className="header-div-img">
+        <div className="header_img">
+          <img className="active" src={assets.profile_image} alt="" />
         </div>
+        <div className="header-contents">
+          <h2>PRIYAL PATEL</h2>
+          <div className="header-btn-span">
+            <span className="header-id" onClick={() => navigate("/feed")}>
+              @mepripri
+            </span>
+            <button>
+              <a href={resume} target="_blank" rel="noreferrer">
+                Download Resume
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="header-second-div">
         <h1>
           Here <span>CrEAtiVity</span> Meets <span>&#x003C;Code/&#x003E;</span>
         </h1>
