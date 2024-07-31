@@ -1,5 +1,6 @@
 .footer {
   position: sticky;
+  z-index: 2;
   width: 100vw;
   min-height: 40px;
   height: 3vw;
