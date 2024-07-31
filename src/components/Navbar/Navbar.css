@@ -4,47 +4,21 @@
   height: 3vw;
   border-bottom: 1px solid grey;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding: 25px 0;
 }
 
 .inner-navbar {
   display: flex;
 }
 
-.navbar p {
+.inner-navbar p {
   font-size: max(1vw, 20px);
   color: white;
-}
-
-.navbar-img {
-  width: 1.5vw;
-  min-width: 20px;
-  margin: 1.5vw;
 }
 
 .inner-navbar img {
   width: 1.5vw;
   min-width: 20px;
-}
-
-.navbar-dot {
-  position: relative;
-}
-
-.navbar-dot .dot {
-  position: absolute;
-  min-width: 10px;
-  min-height: 10px;
-  background-color: rgb(234, 56, 24);
-  top: 0px;
-  right: -4px;
-  padding: 1px 5px;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.navbar-dot .dot p {
-  color: white;
-  font-size: 12px;
 }
