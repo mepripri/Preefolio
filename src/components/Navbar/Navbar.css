@@ -16,9 +16,11 @@
 .inner-navbar p {
   font-size: max(1vw, 20px);
   color: white;
+  cursor: pointer;
 }
 
 .inner-navbar img {
   width: 1.5vw;
   min-width: 20px;
+  cursor: pointer;
 }

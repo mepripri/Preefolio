@@ -6,7 +6,14 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="inner-navbar">
-        <p>priyal-patel</p>
+        <p
+          onClick={() =>
+            (window.location =
+              "https://www.linkedin.com/in/priyal-patel-178ba31b1/")
+          }
+        >
+          priyal-patel
+        </p>
         <img src={assets.chevron} alt="" />
       </div>
     </div>
