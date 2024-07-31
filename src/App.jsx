@@ -11,6 +11,7 @@ function App() {
     <div className="app">
       <Navbar />
       <Routes>
+        <Route path="/Preefolio" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/feed" element={<Feed />} />
       </Routes>
