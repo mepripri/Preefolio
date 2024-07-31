@@ -15,12 +15,12 @@
   justify-content: center;
   background-color: white;
   border: 2px solid black;
-  height: max(15vw, 150px);
+  height: 33%;
 }
 
 .photoflex-item img {
   padding: 10% 5%;
-  width: 100%;
+  width: 80%;
   object-fit: contain;
 }
 
