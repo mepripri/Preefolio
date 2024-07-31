@@ -1,6 +1,5 @@
 .footer {
   position: sticky;
-  padding: 10px 0;
   width: 100vw;
   min-height: 40px;
   border-top: 1px solid grey;
@@ -17,16 +16,12 @@
 }
 
 .footer-img {
-  width: 10%;
+  width: 9%;
   object-fit: contain;
 }
 
-.footer-menu {
-  width: 8%;
-}
-
 .footer-home {
-  width: 10%;
+  width: 8%;
 }
 
 .footer-profile {
@@ -38,14 +33,14 @@
 }
 
 @media (max-width: 900px) {
+  .footer-div {
+    padding: 10px 0;
+  }
   .footer-img {
     width: 28px;
   }
   .footer-home {
     width: 25px;
-  }
-  .footer-menu {
-    width: 22px;
   }
   .footer-profile {
     width: 28px;
