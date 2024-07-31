@@ -79,7 +79,7 @@
 .header-bio {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   margin-top: 2vw;
 }
 
