@@ -39,16 +39,16 @@
 
 @media (max-width: 900px) {
   .footer-img {
-    width: 30px;
-  }
-  .footer-home{
     width: 28px;
   }
-  .footer-menu {
+  .footer-home{
     width: 25px;
   }
+  .footer-menu {
+    width: 22px;
+  }
   .footer-profile {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
   }
 }
