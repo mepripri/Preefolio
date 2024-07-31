@@ -10,7 +10,7 @@
 
 .photoflex-item,
 .projects {
-  width: 25%;
+  width: 33%;
   display: flex;
   justify-content: center;
   background-color: white;
