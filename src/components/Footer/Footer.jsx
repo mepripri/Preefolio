@@ -9,7 +9,7 @@ function Footer() {
     <div className="footer">
       <div className="footer-div">
         <img
-          className="footer-img footer-menu"
+          className="footer-img footer-home"
           src={assets.home}
           alt=""
           onClick={() => navigate("/")}
