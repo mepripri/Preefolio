@@ -6,7 +6,7 @@
   border-top: 1px solid grey;
   display: flex;
   justify-content: space-evenly;
-  bottom: 0;
+  bottom: -1px;
   background-color: black;
 }
 
@@ -41,7 +41,7 @@
   .footer-img {
     width: 28px;
   }
-  .footer-home{
+  .footer-home {
     width: 25px;
   }
   .footer-menu {
