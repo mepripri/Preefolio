@@ -55,8 +55,10 @@
   .highlights {
     gap: 10px;
   }
+  .highlight-menu-list-item p {
+    font-size: 14px;
+  }
 }
-
 
 .modal {
   position: fixed;
