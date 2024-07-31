@@ -7,14 +7,11 @@ import linkedin from "./icons/linkedin.png";
 import github from "./icons/github.png";
 import home from "./icons/home.png";
 import profile_image from "./icons/profile_image.jpg";
-import menu from "./icons/menu.png";
 import cross from "./icons/cross.png";
 import heartRed from "./icons/heart-red.png";
 import heart from "./icons/heart.png";
 import starGold from "./icons/star-gold.png";
 import star from "./icons/star.png";
-import settings from "./icons/settings.png";
-import threads from "./icons/threads.png";
 
 import tcs from "./experience/tcs.png";
 import amul from "./experience/amul.png";
@@ -313,14 +310,11 @@ export const assets = {
   github,
   home,
   profile_image,
-  menu,
   cross,
   heartRed,
   heart,
   starGold,
   star,
-  settings,
-  threads,
 };
 
 export const highlight_list = [
