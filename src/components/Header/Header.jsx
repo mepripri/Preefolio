@@ -2,10 +2,8 @@ import React from "react";
 import "./Header.css";
 import { assets } from "../../assets/assets";
 import resume from "../../assets/Resume.pdf";
-import { useNavigate } from "react-router-dom";
 
 function Header() {
-  const navigate = useNavigate();
   return (
     <div className="header">
       <div className="header-div-img">
