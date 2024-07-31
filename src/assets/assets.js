@@ -325,15 +325,15 @@ export const assets = {
 
 export const highlight_list = [
   {
-    highlight_name: "🎓 Education",
+    highlight_name: "🎓",
     highlight_image: education,
   },
   {
-    highlight_name: "🏅 Certification",
+    highlight_name: "🏅",
     highlight_image: certification,
   },
   {
-    highlight_name: "📜 Research Paper",
+    highlight_name: "📜",
     highlight_image: research,
   },
 ];
