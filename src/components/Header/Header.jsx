@@ -15,8 +15,14 @@ function Header() {
         <div className="header-contents">
           <h2>PRIYAL PATEL</h2>
           <div className="header-btn-span">
-            <span className="header-id" onClick={() => navigate("/feed")}>
-              @mepripri
+            <span
+              className="header-id"
+              onClick={() =>
+                (window.location =
+                  "https://www.linkedin.com/in/priyal-patel-178ba31b1/")
+              }
+            >
+              @priyal-patel-178ba31b1
             </span>
             <button>
               <a href={resume} target="_blank" rel="noreferrer">

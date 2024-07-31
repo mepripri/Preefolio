@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="inner-navbar">
-        <p>mepripri</p>
+        <p>priyal-patel</p>
         <img src={assets.chevron} alt="" />
       </div>
     </div>
