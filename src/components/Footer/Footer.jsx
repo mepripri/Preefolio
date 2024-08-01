@@ -12,7 +12,7 @@ function Footer() {
           className="footer-img footer-home"
           src={assets.home}
           alt=""
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/Preefolio")}
         />
       </div>
       <div className="footer-div">
@@ -47,6 +47,7 @@ function Footer() {
           className="footer-img footer-profile"
           src={assets.profile_image}
           alt=""
+          onClick={() => navigate("/Preefolio")}
         />
       </div>
     </div>
