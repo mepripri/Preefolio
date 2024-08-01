@@ -14,6 +14,8 @@
 .overlay-content {
   position: relative;
   background-color: white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
@@ -30,44 +32,90 @@
 
 .close-div {
   position: absolute;
-  top: 10px;
-  right: -40px;
+  right: 2%;
+  top: 2%;
 }
 
 .cross-icon {
-  width: 40%;
+  width: 30px;
+  height: 30px;
+}
+
+.date-div {
+  padding: 0 15px 3%;
+}
+
+.star-div {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 25px;
 }
 
 .star-img {
-  width: 25px;
-  margin: 0 4px;
+  width: 40px;
+  padding: 0 4px;
 }
 
 .text-div {
   background-color: black;
-  padding: 2% 5% 3%;
   width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.text-date-div {
+  background-color: black;
+  width: 100%;
+}
+
+.link-div {
+  padding: 15px;
+  width: 100%;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+}
+
+.link-div a {
+  color: rgb(230, 86, 115);
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.text-cross-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
 }
 
 .text-date-div {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.text-div p {
+.text-date-div p {
   color: white;
   font-size: 16px;
 }
 
-.text-div h1 {
+.text-cross-div h1 {
   color: white;
   font-size: 28px;
   padding: 10px 0;
 }
 
 .text-div ul {
-  padding: 10px 15px 15px;
+  padding: 15px 30px;
 }
 
 .text-div ul li {
@@ -76,39 +124,30 @@
   padding: 4px 0;
 }
 
-.text-div a {
-  color: rgb(230, 86, 115);
-  font-size: 18px;
-  text-decoration: underline;
-  font-weight: 700;
-}
-
 @media (max-width: 900px) {
   .overlay-content {
     width: 80%;
-    height: 50vh;
-    justify-content: space-between;
   }
   .overlay-content .overlay-img {
     height: 200px;
   }
   .text-div ul li {
-    padding: 4px 0;
-    font-size: 12px;
+    font-size: 14px;
   }
   .text-div ul {
-    padding-top: 10px;
     height: 100px;
     overflow: scroll;
-  }
-  .text-div p {
-    font-size: 8px;
+    margin: 25px 0;
   }
 
-  .text-div h1 {
-    font-size: 16px;
+  .text-cross-div {
+    width: 100%;
   }
-  .text-div {
-    height: 180px;
+  .text-date-div p {
+    font-size: 12px;
+  }
+
+  .text-cross-div h1 {
+    font-size: 18px;
   }
 }

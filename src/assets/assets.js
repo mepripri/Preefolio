@@ -8,6 +8,7 @@ import github from "./icons/github.png";
 import home from "./icons/home.png";
 import profile_image from "./icons/profile_image.jpg";
 import cross from "./icons/cross.png";
+import crossWhite from "./icons/cross-white.png";
 import heartRed from "./icons/heart-red.png";
 import heart from "./icons/heart.png";
 import starGold from "./icons/star-gold.png";
@@ -311,6 +312,7 @@ export const assets = {
   home,
   profile_image,
   cross,
+  crossWhite,
   heartRed,
   heart,
   starGold,
