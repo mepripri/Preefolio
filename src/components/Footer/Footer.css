@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-evenly;
   bottom: 0;
+  margin-bottom: 0;
   background-color: black;
 }
 
@@ -47,8 +48,8 @@
     width: 25px;
   }
   .footer-menu {
-  width: 20px;
-}
+    width: 20px;
+  }
   .footer-profile {
     width: 28px;
     height: 28px;
