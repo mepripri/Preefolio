@@ -80,10 +80,12 @@
 }
 
 .link-div a {
-  color: rgb(230, 86, 115);
+  background-color: rgb(230, 86, 115);
   font-size: 18px;
-  text-decoration: underline;
   font-weight: 700;
+  color: white;
+  padding: 5px 10px;
+border-radius: 5px;
 }
 
 .text-cross-div {
@@ -150,6 +152,6 @@
     font-size: 18px;
   }
   .star-img {
-  width: 30px;
-}
+    width: 30px;
+  }
 }
