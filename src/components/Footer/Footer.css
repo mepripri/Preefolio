@@ -24,6 +24,10 @@
   width: 8%;
 }
 
+.footer-menu {
+  width: 22px;
+}
+
 .footer-profile {
   border-radius: 50%;
   width: 12%;
@@ -42,6 +46,9 @@
   .footer-home {
     width: 25px;
   }
+  .footer-menu {
+  width: 20px;
+}
   .footer-profile {
     width: 28px;
     height: 28px;
