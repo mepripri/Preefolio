@@ -14,7 +14,14 @@ function Navbar() {
         >
           priyal-patel
         </p>
-        <img src={assets.chevron} alt="" />
+        <img
+          src={assets.chevron}
+          alt=""
+          onClick={() =>
+            (window.location =
+              "https://www.linkedin.com/in/priyal-patel-178ba31b1/")
+          }
+        />
       </div>
     </div>
   );

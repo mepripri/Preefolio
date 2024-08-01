@@ -31,7 +31,9 @@ function Overlay({
         <img className="overlay-img" src={selectedImage} alt="" />
         <div className="text-div">
           {desc.length !== 0 && (
-            <ul>{desc.length !== 0 && desc.map((d) => <li>{d}</li>)} </ul>
+            <ul>
+              {desc.length !== 0 && desc.map((d, i) => <li key={i}>{d}</li>)}{" "}
+            </ul>
           )}
           {link !== "" && (
             <div className="link-div">
