@@ -51,7 +51,7 @@
   font-weight: 700;
   font-size: 20px;
   padding: 5px 15px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .form-text {
@@ -77,9 +77,9 @@
     width: 300px;
   }
   .inner-div h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .inner-div p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
