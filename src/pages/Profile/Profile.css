@@ -1,3 +1,6 @@
+.main-profile {
+
+}
 .profile {
   display: flex;
   justify-content: center;
@@ -5,18 +8,20 @@
 }
 
 .profile img {
-  width: 500px;
+  width: 400px;
 }
 
 .outer-div {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .inner-div {
-  width: 100%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,8 +38,40 @@
   color: white;
 }
 
+.profile-form {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 25px 0;
+  background: #833ab4;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.form-label {
+  padding: 5px 15px;
+}
+
+.form-text {
+  border: none;
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin-right: 15px;
+}
+
+.form-button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
 @media (max-width: 750px) {
   .profile img {
     width: 300px;
+  }
+  .inner-div h3 {
+    font-size: 12px;
+  }
+  .inner-div p {
+    font-size: 12px;
   }
 }

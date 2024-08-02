@@ -4,7 +4,7 @@ import { assets } from "../../assets/assets";
 
 function Profile() {
   return (
-    <div>
+    <div className="main-profile">
       <div className="header_img profile">
         <img className="active" src={assets.profile_image} alt="" />
       </div>
@@ -21,20 +21,20 @@ function Profile() {
           <h3>ADDRESS</h3>
           <p>Saint Louis, Missouri, 63108</p>
         </div>
-        <div className="inner-div">
-          <h3>PHONE</h3>
-          <p>+1 201 300 9057</p>
-        </div>
-        <div className="inner-div">
-          <h3>GITHUB</h3>
-          <p>https://github.com/mepripri</p>
-        </div>
-        <div className="inner-div">
-          <h3>LINKEDIN</h3>
-          <p>https://www.linkedin.com/in/priyal-patel-178ba31b1/</p>
-        </div>
       </div>
-      <form action="" method="get"></form>
+      <form
+        className="profile-form"
+        action="mailto:priyaldharmendra@slu.edu"
+        method="get"
+      >
+        <label className="form-label" htmlFor="name">
+          NAME
+        </label>
+        <input className="form-text" type="text" id="name" />
+        <button className="form-button" type="submit">
+          SEND
+        </button>
+      </form>
     </div>
   );
 }
