@@ -29,8 +29,7 @@ function Footer() {
           src={assets.linkedin}
           alt=""
           onClick={() =>
-            (window.location =
-              "https://www.linkedin.com/in/priyal-patel-178ba31b1/")
+            (window.location = "https://www.linkedin.com/in/priyaldpatel/")
           }
         />
       </div>
@@ -47,7 +46,7 @@ function Footer() {
           className="footer-img footer-profile"
           src={assets.profile_image}
           alt=""
-          onClick={() => navigate("/Preefolio")}
+          onClick={() => navigate("/Preefolio/profile")}
         />
       </div>
     </div>

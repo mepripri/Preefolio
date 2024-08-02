@@ -16,11 +16,10 @@ function Header() {
             <span
               className="header-id"
               onClick={() =>
-                (window.location =
-                  "https://www.linkedin.com/in/priyal-patel-178ba31b1/")
+                (window.location = "https://www.linkedin.com/in/priyaldpatel/")
               }
             >
-              @priyal-patel-178ba31b1
+              @priyaldpatel
             </span>
             <button>
               <a href={resume} target="_blank" rel="noreferrer">

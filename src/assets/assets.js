@@ -14,6 +14,7 @@ import heart from "./icons/heart.png";
 import starGold from "./icons/star-gold.png";
 import star from "./icons/star.png";
 import menu from "./icons/menu.png";
+import link from "./icons/link.png";
 
 import tcs from "./experience/tcs.png";
 import amul from "./experience/amul.png";
@@ -319,6 +320,7 @@ export const assets = {
   starGold,
   star,
   menu,
+  link,
 };
 
 export const highlight_list = [

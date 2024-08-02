@@ -37,7 +37,9 @@ function Overlay({
           )}
           {link !== "" && (
             <div className="link-div">
-              <a href={link}>Github Link</a>
+              <a href={link}>
+                Github <img className="github-img" src={assets.link} alt="" />
+              </a>
             </div>
           )}
           {(star !== 0 || nonStar !== 0) && (

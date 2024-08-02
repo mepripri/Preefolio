@@ -8,18 +8,16 @@ function Navbar() {
       <div className="inner-navbar">
         <p
           onClick={() =>
-            (window.location =
-              "https://www.linkedin.com/in/priyal-patel-178ba31b1/")
+            (window.location = "https://www.linkedin.com/in/priyaldpatel/")
           }
         >
-          priyal-patel
+          priyaldpatel
         </p>
         <img
           src={assets.chevron}
           alt=""
           onClick={() =>
-            (window.location =
-              "https://www.linkedin.com/in/priyal-patel-178ba31b1/")
+            (window.location = "https://www.linkedin.com/in/priyaldpatel/")
           }
         />
       </div>
