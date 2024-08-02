@@ -28,9 +28,9 @@ function Profile() {
         method="get"
       >
         <label className="form-label" htmlFor="name">
-          NAME
+          MESSAGE
         </label>
-        <input className="form-text" type="text" id="name" />
+        <textarea className="form-text" type="text" id="name" rows={6} cols={12}></textarea>
         <button className="form-button" type="submit">
           SEND
         </button>

@@ -1,6 +1,3 @@
-.main-profile {
-
-}
 .profile {
   display: flex;
   justify-content: center;
@@ -18,6 +15,7 @@
   margin: auto;
   align-items: center;
   justify-content: center;
+  padding: 25px 15px;
 }
 
 .inner-div {
@@ -39,16 +37,19 @@
 }
 
 .profile-form {
+  bottom: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   color: white;
-  padding: 25px 0;
-  background: #833ab4;
+  padding: 25px 0 0;
   background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
 }
 
 .form-label {
   padding: 5px 15px;
+  margin-bottom: 25px;
 }
 
 .form-text {
@@ -56,12 +57,14 @@
   border-radius: 25px;
   padding: 5px 15px;
   margin-right: 15px;
+  width: 60%;
 }
 
 .form-button {
   padding: 5px 15px;
   border: none;
   border-radius: 5px;
+  margin: 25px 0;
 }
 
 @media (max-width: 750px) {
