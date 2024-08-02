@@ -43,28 +43,31 @@
   justify-content: center;
   align-items: center;
   color: white;
-  padding: 25px 0 0;
+  padding: 15px 0 0;
   background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
 }
 
 .form-label {
   padding: 5px 15px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .form-text {
   border: none;
   border-radius: 25px;
   padding: 5px 15px;
-  margin-right: 15px;
   width: 60%;
 }
 
 .form-button {
-  padding: 5px 15px;
+  padding: 5px 30px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
   border: none;
   border-radius: 5px;
-  margin: 25px 0;
+  margin: 15px 0;
 }
 
 @media (max-width: 750px) {
