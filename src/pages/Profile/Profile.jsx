@@ -24,13 +24,21 @@ function Profile() {
       </div>
       <form
         className="profile-form"
-        action="mailto:priyaldharmendra@slu.edu"
-        method="get"
+        action="https://formspree.io/f/mdknbvra"
+        method="post"
       >
-        <label className="form-label" htmlFor="name">
+        <label className="form-label" htmlFor="message">
           MESSAGE
         </label>
-        <textarea className="form-text" type="text" id="name" rows={6} cols={12}></textarea>
+        <textarea
+          className="form-text"
+          type="text"
+          name="message"
+          id="message"
+          rows={6}
+          cols={12}
+          required
+        ></textarea>
         <button className="form-button" type="submit">
           SEND
         </button>

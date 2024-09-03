@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./Post.css";
-import { exp_images, proj_images, assets } from "../../assets/assets";
+import { all_posts, assets } from "../../assets/assets";
 
 function Post() {
   const [red, setRed] = useState(false);
-  const allPosts = [...exp_images, ...proj_images];
+  const allPosts = all_posts;
 
   return (
     <div className="post">
