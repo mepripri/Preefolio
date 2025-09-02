@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { assets } from "../../assets/assets";
-import resume from "../../assets/Resume.pdf";
+import resume from "../../assets/PriyalPatel_ Resume.pdf";
 
 function Header() {
   return (
